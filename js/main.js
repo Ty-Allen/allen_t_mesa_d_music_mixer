@@ -2,7 +2,7 @@
   //variables at the top
   const dropZoneContainer = document.querySelector(".drop-zone"),
         dragZone = document.querySelector(".music-icons"),
-        dragImages = document.querySelectorAll(".music-image"),
+        dragImages = document.querySelectorAll(".music-image");
 
 
   //functions
