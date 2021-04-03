@@ -1,0 +1,128 @@
+.hidden
+{
+  display: none;
+}
+
+.Container
+{
+  font-family:Arial, sans-serif;
+  max-width: auto;
+  height: 800px;
+
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  
+}
+
+body, h1, h2, h3, p
+{
+  font-family: Arial, sans-serif;
+
+}
+
+
+#MainHead h1
+{
+  margin-top: 300px;
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+#MainHead h2
+{
+  margin-top: 100px;
+  font-size:15px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 50px;
+
+}
+
+#MainHead h3
+{
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+#MainHead p
+{
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 10px;
+
+}
+
+
+.music-icons
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+
+}
+
+.music-icons img
+{
+  margin-top: 5px;
+  width: 90%;
+  height: 90%;
+}
+
+.music-icons2
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+
+}
+
+.music-icons2 img
+{
+  margin-top: 5px;
+  width: 90%;
+  height: 90%;
+}
+
+.drop-zone img
+{
+  margin-top: 80px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: 100px;
+  margin-right: 110px;
+}
+
+.Buttons
+{
+
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ margin-left: 250px;
+ margin-bottom: 10px;
+
+}
+
+.Buttons:hover{
+  opacity: 1;
+}
+
+
+
