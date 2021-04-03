@@ -1,7 +1,7 @@
 (() => {
   //variables at the top
   const dropZoneContainer = document.querySelector(".drop-zone"),
-        dropZone = document.querySelector(".music-icons"),
+        dragZone = document.querySelector(".music-icons"),
         dragImages = document.querySelectorAll(".music-image"),
         dropZones = document.querySelectorAll(".drop-zone");
 
@@ -28,7 +28,7 @@
 
   //event handling
   dragImages.forEach(piece => piece.addEventListener("dragstart", dragStart));
-  dropZone.forEach(zone => {
+  dropZones.forEach(zone => {
     zone.addEventListener("dragover", draggedOver);
     zone.addEventListener("drop", dropped);
   });
