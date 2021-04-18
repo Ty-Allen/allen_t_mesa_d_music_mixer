@@ -31,10 +31,6 @@
 				<button id="button1">PLAY</button>
 				<button id="button2">STOP</button>
 
-				<button id="button3">RECORD</button>
-
-			    <button id="button4">REWIND</button>
-
 			</section>
 
 
@@ -42,31 +38,31 @@
 
 
 		                <div id="Element">
-								<img id="drag0" src="images/explotion.svg" alt="sound" class="music-image">
+								<img id="drag0" src="images/explotion.svg" alt="sound" class="music-image" data-audio="0">
 								<h2></h2>
 
 						</div>
 
 						<div id="Element1">
-								<img id="drag1" src="images/clap.svg" alt="sound" class="music-image">
+								<img id="drag1" src="images/clap.svg" alt="sound" class="music-image" data-audio="1">
 								<h2></h2>
 
 						</div>
 
 						<div id="Element2">
-								<img id="drag2" src="images/voice.svg" alt="sound" class="music-image">
+								<img id="drag2" src="images/voice.svg" alt="sound" class="music-image" data-audio="2">
 								<h2></h2>
 
 						</div>
 
 						<div id="Element3">
-								<img id="drag3" src="images/hit.svg" alt="sound" class="music-image">
+								<img id="drag3" src="images/hit.svg" alt="sound" class="music-image" data-audio="3">
 								<h2></h2>
 
 						</div>
 
 						<div id="Element4">
-								<img id="drag4" src="images/drums.svg" alt="sound" class="music-image">
+								<img id="drag4" src="images/drums.svg" alt="sound" class="music-image" data-audio="4">
 								<h2></h2>
 
 						</div>
@@ -78,33 +74,33 @@
 
 
 						<div id="Element5">
-								<img id="drag5" src="images/guitar.svg" alt="sound" class="music-image">
+								<img id="drag5" src="images/guitar.svg" alt="sound" class="music-image" data-audio="5">
 								<h2></h2>
 
 						</div>
 
 
 						<div id="Element6">
-								<img id="drag6" src="images/shoot.svg" alt="sound" class="music-image">
+								<img id="drag6" src="images/shoot.svg" alt="sound" class="music-image" data-audio="6">
 								<h2></h2>
 
 						</div>
 
 
 						<div id="Element7">
-								<img id="drag7" src="images/shoot2.svg" alt="sound" class="music-image">
+								<img id="drag7" src="images/shoot2.svg" alt="sound" class="music-image" data-audio="7">
 								<h2></h2>
 
 						</div>
 
 						<div id="Element8">
-								<img id="drag8" src="images/cymbals.svg" alt="sound" class="music-image">
+								<img id="drag8" src="images/cymbals.svg" alt="sound" class="music-image" data-audio="8">
 								<h2></h2>
 
 						</div>
 
 						<div id="Element9">
-								<img id="drag9" src="images/beat.svg" alt="sound" class="music-image">
+								<img id="drag9" src="images/beat.svg" alt="sound" class="music-image" data-audio="9">
 								<h2></h2>
 
 						</div>
@@ -116,16 +112,18 @@
 
 	</div>
 
-	    <audio src="audio/Explotion.wav"></audio>
-		<audio src="audio/Clap.wav"></audio>
-		<audio src="audio/Voice.wav"></audio>
-		<audio src="audio/Drums.wav"></audio>
-		<audio src="audio/cymbals.wav"></audio>
-		<audio src="audio/Guitar.wav"></audio>
-		<audio src="audio/Beat.wav"></audio>
-		<audio src="audio/Shoot.wav"></audio>
-		<audio src="audio/Shoot2.wav"></audio>
-
+	<div id=audioFiles>
+	  <audio class="audio" data-audio="0" src="audio/Explotion.wav"></audio>
+		<audio class="audio" data-audio="1" src="audio/Clap.wav"></audio>
+		<audio class="audio" data-audio="2" src="audio/Voice.wav"></audio>
+		<audio class="audio" data-audio="4" src="audio/Drums.wav"></audio>
+		<audio class="audio" data-audio="3" src="audio/Hit.wav"></audio>
+		<audio class="audio" data-audio="8" src="audio/cymbals.wav"></audio>
+		<audio class="audio" data-audio="5" src="audio/Guitar.wav"></audio>
+		<audio class="audio" data-audio="9" src="audio/Beat.wav"></audio>
+		<audio class="audio" data-audio="6" src="audio/Shoot.wav"></audio>
+		<audio class="audio" data-audio="7" src="audio/Shoot2.wav"></audio>
+	</div>
 
 
 
